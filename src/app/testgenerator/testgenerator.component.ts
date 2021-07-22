@@ -10,7 +10,7 @@ export class TestgeneratorComponent implements OnInit {
 
   constructor() { }
   generatedStrings:Array<any> = []
-  stream$ = interval(100)
+  stream$ = interval(3000)
   makeString() {
     let text = "";
     let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
