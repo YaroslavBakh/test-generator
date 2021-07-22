@@ -1,0 +1,1 @@
+<p *ngFor='let item of generatedStrings' [ngClass]="{'red':item.class === 'red', 'blue': item.class === 'blue', 'hidden':item.class === 'hidden' }">{{item.string}}</p>
